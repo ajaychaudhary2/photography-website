@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our-work</title>
+    <link rel="icon" type="image/x-icon" href="/img3/309158-P8EMR5-359.jpg">
+    <link rel="stylesheet" href="/css/ourwork.css">
+    <link rel="stylesheet" href="/css/preloader.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+</head>
+<body id="page-top" class="no-scroll-y  " >
+  <section id="preloader-section">
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                
+                <!-- Spinner -->
+                <div class="spinner"></div>
+                
+                <!-- Start: Text Loading -->
+                
+                <!-- End: Text Loading -->
+
+            </div>
+
+            <!-- Start: Preloader sides - Model 1 -->
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+            <!-- End: Preloader sides - Model 1 -->
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</section>
+ 
+ 
+    <main id="main-1" class="opi-1">
+       
+        <h1>our recent  <span class="lavender-2">work</span></h1>
+        <div class="back"><h4 class="first link" ><a href="index2.html">⇠back to <span class="lavender-2">home</span></a> </h4>
+              <h4 class="second link"><a href="contact.html">Hire-<span class="lavender-2">us</span>⇢</a></h4></div>
+        <p class="p- ">(Scroll-<span class="lavender-2">Down</span>⮛)</p><hr>
+        <div id="gallery" class="container-fluid">  
+          <img src="img2/img1.jpg" class="img-responsive">
+          <img src="img2/img2.jpg" class="img-responsive">
+           <img src="img2/img3.jpg" class="img-responsive">
+          <video class="vid" controls>
+            <source src="video/vi3.mp4" type="video/mp4">
+            </source>
+          </video>
+          <img src="img2/img5.jpg" class="img-responsive">
+          <img src="img2/img7.jpg" class="img-responsive">
+        <img src="img2/img4.jpg" class="img-responsive">
+          <img src="img2/img11.jpg" class="card img-responsive">
+          <img src="img2/img10.jpg" class="img-responsive">
+          <img src="https://source.unsplash.com/600x800?female,portrait" class="img-responsive">
+          <img src="img2/img6.jpg" class="img-responsive">
+          <img src="img2/img8.jpg" class="img-responsive">
+          
+        <img src="https://source.unsplash.com/1100x1600?female,portrait" class="img-responsive">
+        <img src="img2/img8.jpg" class="img-responsive">
+        <video class="vid" controls>
+            <source src="video/vi1.mp4" type="video/mp4">
+            </source>
+          </video>
+        <img src="https://source.unsplash.com/992x768?female,portrait" class="img-responsive">
+        <video class="vid" controls>
+            <source src="video/vi2.mp4" type="video/mp4">
+            </source>
+          </video>
+        
+        <img src="https://source.unsplash.com/768x992?female,portrait" class="img-responsive">
+       
+        </div>
+        
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        </main>
+
+    
+     
+
+
+
+<script>
+  
+  </script>
+
+
+
+
+
+
+
+
+<script>
+       $(document).ready(function(){
+  $("img").click(function(){
+  var t = $(this).attr("src");
+  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+  $("#myModal").modal();
+});
+
+$("video").click(function(){
+  var v = $("video > source");
+  var t = v.attr("src");
+  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+  $("#myModal").modal();  
+});
+});//EOF Document.ready
+      </script>
+</body>
+</html>

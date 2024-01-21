@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+h1{
+    font-family: Satisfy;
+    font-size:50px;
+    text-align:center;
+    color:black;
+    padding:1%;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
+  }
+  .lavender-2 {
+    color:  rgb(91 91 245);
+  }
+  .first{
+    position: absolute;
+    left: 51px; font-family: 'Cinzel', serif;
+  }
+  .second {
+    position: absolute;
+    right: 3rem;
+    font-family: 'Cinzel', serif;
+
+  }
+  .link  a{
+    color: #000;
+    text-decoration: none;
+  }
+  .p-{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+  }
+  #gallery{
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  @media (max-width:1200px){
+    #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:800px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+      
+    -webkit-column-gap:20px;
+    -moz-column-gap:20px;
+    column-gap:20px;
+  }
+  }
+  @media (max-width:600px){
+    #gallery{
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+  }  
+  }
+  #gallery img,#gallery video {
+    width:100%;
+    height:auto;
+    margin: 4% auto;
+    box-shadow:-3px 5px 15px #000;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .modal-img,.model-vid{
+    width:100%;
+    height:auto;
+  }
+  .modal-body{
+    padding:0px;
+  }
+  #gallery img:hover {
+    cursor: pointer;
+    opacity: .7;
+    width: 103%;
+  }
+  #gallery video:hover{
+    width: 103%;
+  }
+  
+
+.link a:hover {
+    font-size: 1.05rem;
+    
+}
+
+
+
+
+
+
+
+
+
